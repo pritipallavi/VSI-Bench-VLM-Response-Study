@@ -1,0 +1,448 @@
+{
+  "scene_name": "scene0222_01",
+  "video_path": "data/scannet/scene0222_01.mp4",
+  "source": "local:data/vsi_bench/test.jsonl",
+  "num_questions": 47,
+  "questions": [
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (nightstand, pillow, trash bin, fan) is the closest to the lamp?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. nightstand",
+        "B. pillow",
+        "C. trash bin",
+        "D. fan"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (table, chair, nightstand, refrigerator) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. table",
+        "B. chair",
+        "C. nightstand",
+        "D. refrigerator"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (nightstand, pillow, trash bin, bed) is the closest to the fan?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. nightstand",
+        "B. pillow",
+        "C. trash bin",
+        "D. bed"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, fan, door, lamp) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. trash bin",
+        "B. fan",
+        "C. door",
+        "D. lamp"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (door, lamp, pillow, nightstand) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. door",
+        "B. lamp",
+        "C. pillow",
+        "D. nightstand"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (table, trash bin, fan, door) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. table",
+        "B. trash bin",
+        "C. fan",
+        "D. door"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (lamp, pillow, table, nightstand) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. lamp",
+        "B. pillow",
+        "C. table",
+        "D. nightstand"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, chair, lamp, table) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. trash bin",
+        "B. chair",
+        "C. lamp",
+        "D. table"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (nightstand, table, fan, pillow) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. nightstand",
+        "B. table",
+        "C. fan",
+        "D. pillow"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, which of these objects (fan, trash bin, table, pillow) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. fan",
+        "B. trash bin",
+        "C. table",
+        "D. pillow"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What is the length of the longest dimension (length, width, or height) of the lamp, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What is the length of the longest dimension (length, width, or height) of the nightstand, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What is the length of the longest dimension (length, width, or height) of the fan, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What is the length of the longest dimension (length, width, or height) of the radiator, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the lamp and facing the fan, is the radiator to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-right",
+        "B. front-right",
+        "C. back-left",
+        "D. front-left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the lamp and facing the radiator, is the fan to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-right",
+        "B. front-left",
+        "C. front-right",
+        "D. back-left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the fan and facing the lamp, is the radiator to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-right",
+        "B. front-left",
+        "C. back-left",
+        "D. front-right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the lamp and facing the nightstand, is the radiator to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-left",
+        "B. back-right",
+        "C. front-right",
+        "D. front-left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the nightstand and facing the lamp, is the radiator to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-left",
+        "B. front-left",
+        "C. back-right",
+        "D. front-right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the nightstand and facing the fan, is the radiator to the left or the right of the fan?",
+      "question_type": "object_rel_direction_easy",
+      "options": [
+        "A. left",
+        "B. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the nightstand and facing the radiator, is the fan to the left or the right of the radiator?",
+      "question_type": "object_rel_direction_easy",
+      "options": [
+        "A. left",
+        "B. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the fan and facing the nightstand, is the radiator to the left or the right of the nightstand?",
+      "question_type": "object_rel_direction_easy",
+      "options": [
+        "A. right",
+        "B. left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "question_type": "room_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, radiator, nightstand, table?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. radiator, table, nightstand, window",
+        "B. table, radiator, window, nightstand",
+        "C. table, window, nightstand, radiator",
+        "D. window, radiator, nightstand, table"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: radiator, window, nightstand, pillow?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. pillow, window, nightstand, radiator",
+        "B. radiator, window, nightstand, pillow",
+        "C. pillow, nightstand, window, radiator",
+        "D. pillow, radiator, nightstand, window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: chair, radiator, nightstand, window?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. chair, radiator, nightstand, window",
+        "B. chair, radiator, window, nightstand",
+        "C. nightstand, window, radiator, chair",
+        "D. chair, window, nightstand, radiator"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: door, window, radiator, nightstand?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. door, window, nightstand, radiator",
+        "B. door, window, radiator, nightstand",
+        "C. window, nightstand, door, radiator",
+        "D. nightstand, door, window, radiator"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, bed, radiator, nightstand?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. nightstand, bed, window, radiator",
+        "B. window, bed, radiator, nightstand",
+        "C. nightstand, bed, radiator, window",
+        "D. bed, window, nightstand, radiator"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the lamp and facing the fan, is the radiator to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. left",
+        "B. right",
+        "C. back"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the lamp and facing the radiator, is the fan to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. left",
+        "B. back",
+        "C. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the fan and facing the lamp, is the radiator to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the lamp and facing the nightstand, is the radiator to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. back",
+        "B. left",
+        "C. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "If I am standing by the lamp and facing the radiator, is the nightstand to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. left",
+        "B. back",
+        "C. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "How many bed(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "How many chair(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "How many window(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "How many refrigerator(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "How many pillow(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "How many door(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "How many trash bin(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "How many table(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the nightstand and the lamp (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the fan and the lamp (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the fan and the nightstand (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the radiator and the lamp (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the radiator and the nightstand (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0222_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the radiator and the fan (in meters)?",
+      "question_type": "object_abs_distance"
+    }
+  ],
+  "ground_truth_included": false
+}

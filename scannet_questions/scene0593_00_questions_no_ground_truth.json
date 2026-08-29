@@ -1,0 +1,549 @@
+{
+  "scene_name": "scene0593_00",
+  "video_path": "data/scannet/scene0593_00.mp4",
+  "source": "local:data/vsi_bench/test.jsonl",
+  "num_questions": 54,
+  "questions": [
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (window, trash bin, printer, sofa) is the closest to the fan?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. window",
+        "B. trash bin",
+        "C. printer",
+        "D. sofa"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (table, window, fan, sofa) is the closest to the door?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. table",
+        "B. window",
+        "C. fan",
+        "D. sofa"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (fan, backpack, window, trash bin) is the closest to the table?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. fan",
+        "B. backpack",
+        "C. window",
+        "D. trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, sofa, backpack, table) is the closest to the printer?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. trash bin",
+        "B. sofa",
+        "C. backpack",
+        "D. table"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, printer, window, door) is the closest to the sofa?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. trash bin",
+        "B. printer",
+        "C. window",
+        "D. door"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, printer, table, door) is the closest to the backpack?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. trash bin",
+        "B. printer",
+        "C. table",
+        "D. door"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (printer, sofa, backpack, window) is the closest to the fan?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. printer",
+        "B. sofa",
+        "C. backpack",
+        "D. window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (sofa, window, table, trash bin) is the closest to the printer?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. sofa",
+        "B. window",
+        "C. table",
+        "D. trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (table, backpack, fan, door) is the closest to the printer?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. table",
+        "B. backpack",
+        "C. fan",
+        "D. door"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (table, window, backpack, door) is the closest to the fan?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. table",
+        "B. window",
+        "C. backpack",
+        "D. door"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, which of these objects (printer, window, table, sofa) is the closest to the fan?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. printer",
+        "B. window",
+        "C. table",
+        "D. sofa"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the sofa, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the printer, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the backpack, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the fan, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the door, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the table, measured in centimeters?",
+      "question_type": "object_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the backpack and facing the fan, is the door to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-left",
+        "B. back-right",
+        "C. front-left",
+        "D. front-right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the backpack and facing the door, is the fan to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-right",
+        "B. front-right",
+        "C. front-left",
+        "D. back-left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the fan and facing the backpack, is the door to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. front-left",
+        "B. back-right",
+        "C. front-right",
+        "D. back-left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the printer and facing the door, is the table to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-right",
+        "B. front-left",
+        "C. back-left",
+        "D. front-right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the printer and facing the table, is the door to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. front-right",
+        "B. back-left",
+        "C. front-left",
+        "D. back-right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the printer and facing the backpack, is the table to the left or the right of the backpack?",
+      "question_type": "object_rel_direction_easy",
+      "options": [
+        "A. left",
+        "B. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the printer and facing the table, is the backpack to the left or the right of the table?",
+      "question_type": "object_rel_direction_easy",
+      "options": [
+        "A. left",
+        "B. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the backpack and facing the printer, is the table to the left or the right of the printer?",
+      "question_type": "object_rel_direction_easy",
+      "options": [
+        "A. left",
+        "B. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "question_type": "room_size_estimation"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: fan, backpack, table, trash bin?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. fan, backpack, table, trash bin",
+        "B. table, fan, backpack, trash bin",
+        "C. backpack, trash bin, fan, table",
+        "D. table, backpack, fan, trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: printer, trash bin, table, backpack?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. backpack, trash bin, printer, table",
+        "B. printer, trash bin, table, backpack",
+        "C. table, printer, backpack, trash bin",
+        "D. printer, table, trash bin, backpack"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: backpack, door, table, trash bin?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. backpack, table, trash bin, door",
+        "B. trash bin, table, door, backpack",
+        "C. backpack, door, table, trash bin",
+        "D. backpack, trash bin, door, table"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: printer, table, window, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. table, printer, window, sofa",
+        "B. table, window, sofa, printer",
+        "C. printer, table, window, sofa",
+        "D. sofa, window, printer, table"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: printer, trash bin, sofa, table?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. sofa, trash bin, printer, table",
+        "B. trash bin, printer, sofa, table",
+        "C. printer, trash bin, sofa, table",
+        "D. sofa, trash bin, table, printer"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: fan, table, sofa, window?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. sofa, fan, table, window",
+        "B. table, window, fan, sofa",
+        "C. sofa, window, fan, table",
+        "D. fan, table, sofa, window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: table, trash bin, fan, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. table, trash bin, fan, sofa",
+        "B. sofa, trash bin, fan, table",
+        "C. fan, table, trash bin, sofa",
+        "D. table, trash bin, sofa, fan"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: fan, table, window, backpack?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. fan, table, backpack, window",
+        "B. fan, table, window, backpack",
+        "C. backpack, window, fan, table",
+        "D. table, window, fan, backpack"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: table, door, window, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. sofa, window, door, table",
+        "B. window, table, door, sofa",
+        "C. table, door, window, sofa",
+        "D. sofa, table, door, window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, backpack, door, table?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. door, table, backpack, window",
+        "B. backpack, window, door, table",
+        "C. window, backpack, door, table",
+        "D. backpack, window, table, door"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: table, trash bin, sofa, door?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. trash bin, table, sofa, door",
+        "B. table, trash bin, sofa, door",
+        "C. trash bin, door, sofa, table",
+        "D. sofa, trash bin, door, table"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: table, window, backpack, printer?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. table, printer, backpack, window",
+        "B. table, window, backpack, printer",
+        "C. backpack, window, printer, table",
+        "D. backpack, printer, table, window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the backpack and facing the fan, is the door to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. right",
+        "B. back",
+        "C. left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the backpack and facing the door, is the fan to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. back",
+        "B. left",
+        "C. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the fan and facing the backpack, is the door to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. left",
+        "B. back",
+        "C. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the fan and facing the door, is the table to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. left",
+        "B. right",
+        "C. back"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the fan and facing the table, is the door to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "If I am standing by the door and facing the fan, is the table to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "How many window(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "How many trash bin(s) are in this room?",
+      "question_type": "object_counting"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the table and the door (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the fan (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the fan and the sofa (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the table and the printer (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the backpack and the printer (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the printer (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the table and the fan (in meters)?",
+      "question_type": "object_abs_distance"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0593_00",
+      "question": "You are a robot beginning at the sofa and facing the wall behind the sofa. You want to navigate to the printer. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the paper disposal bin. 3. [please fill in] 4. Go forward until the electric fan. 5. [please fill in] 6. Go forward until the printer. You have reached the final destination.",
+      "question_type": "route_planning",
+      "options": [
+        "A. Turn Right, Turn Right, Turn Right",
+        "B. Turn Left, Turn Left, Turn Left",
+        "C. Turn Left, Turn Right, Turn Left",
+        "D. Turn Back, Turn Right, Turn Right"
+      ]
+    }
+  ],
+  "ground_truth_included": false
+}

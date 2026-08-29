@@ -1,0 +1,832 @@
+{
+  "scene_name": "scene0207_02",
+  "video_path": "data/scannet/scene0207_02.mp4",
+  "source": "local:data/vsi_bench/test.jsonl",
+  "num_questions": 76,
+  "questions": [
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (counter, towel, chair, pillow) is the closest to the mirror?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. counter",
+        "B. towel",
+        "C. chair",
+        "D. pillow"
+      ],
+      "gemini_answer": "A. counter"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (monitor, chair, closet, mirror) is the closest to the nightstand?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. monitor",
+        "B. chair",
+        "C. closet",
+        "D. mirror"
+      ],
+      "gemini_answer": "D. mirror"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (chair, door, backpack, trash bin) is the closest to the nightstand?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. chair",
+        "B. door",
+        "C. backpack",
+        "D. trash bin"
+      ],
+      "gemini_answer": "A. chair"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (refrigerator, mirror, door, radiator) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. refrigerator",
+        "B. mirror",
+        "C. door",
+        "D. radiator"
+      ],
+      "gemini_answer": "C. door"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (printer, chair, closet, door) is the closest to the counter?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. printer",
+        "B. chair",
+        "C. closet",
+        "D. door"
+      ],
+      "gemini_answer": "A. printer"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (pillow, refrigerator, nightstand, door) is the closest to the monitor?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. pillow",
+        "B. refrigerator",
+        "C. nightstand",
+        "D. door"
+      ],
+      "gemini_answer": "C. nightstand"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (printer, backpack, trash bin, window) is the closest to the monitor?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. printer",
+        "B. backpack",
+        "C. trash bin",
+        "D. window"
+      ],
+      "gemini_answer": "A. printer"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, nightstand, mirror, monitor) is the closest to the radiator?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. trash bin",
+        "B. nightstand",
+        "C. mirror",
+        "D. monitor"
+      ],
+      "gemini_answer": "B. nightstand"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (table, refrigerator, printer, backpack) is the closest to the chair?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. table",
+        "B. refrigerator",
+        "C. printer",
+        "D. backpack"
+      ],
+      "gemini_answer": "D. backpack"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (monitor, towel, backpack, bed) is the closest to the chair?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. monitor",
+        "B. towel",
+        "C. backpack",
+        "D. bed"
+      ],
+      "gemini_answer": "C. backpack"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (microwave, backpack, nightstand, closet) is the closest to the counter?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. microwave",
+        "B. backpack",
+        "C. nightstand",
+        "D. closet"
+      ],
+      "gemini_answer": "A. microwave"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (door, refrigerator, chair, table) is the closest to the pillow?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. door",
+        "B. refrigerator",
+        "C. chair",
+        "D. table"
+      ],
+      "gemini_answer": "C. chair"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, which of these objects (radiator, pillow, table, sofa) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. radiator",
+        "B. pillow",
+        "C. table",
+        "D. sofa"
+      ],
+      "gemini_answer": "D. sofa"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the bed, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "190 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the chair, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "105 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the sofa, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "205 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the counter, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "240 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the refrigerator, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "175 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the pillow, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "65 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the monitor, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "60 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the printer, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "45 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the nightstand, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "55 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the closet, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "210 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the microwave, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "50 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the mirror, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "100 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the radiator, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "115 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the length of the longest dimension (length, width, or height) of the trash bin, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "70 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "If I am standing by the pillow and facing the radiator, is the printer to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-right",
+        "B. front-right",
+        "C. front-left",
+        "D. back-left"
+      ],
+      "gemini_answer": "C. front-left"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "If I am standing by the printer and facing the pillow, is the radiator to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-left",
+        "B. back-right",
+        "C. front-left",
+        "D. front-right"
+      ],
+      "gemini_answer": "A. back-left"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "question_type": "room_size_estimation",
+      "gemini_answer": "25 square meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: nightstand, mirror, table, counter?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. table, nightstand, counter, mirror",
+        "B. mirror, table, nightstand, counter",
+        "C. counter, mirror, table, nightstand",
+        "D. nightstand, mirror, table, counter"
+      ],
+      "gemini_answer": "D. nightstand, mirror, table, counter"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: microwave, mirror, printer, chair?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. microwave, printer, chair, mirror",
+        "B. microwave, mirror, printer, chair",
+        "C. printer, chair, microwave, mirror",
+        "D. microwave, printer, mirror, chair"
+      ],
+      "gemini_answer": "C. printer, chair, microwave, mirror"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: microwave, nightstand, mirror, closet?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. nightstand, microwave, closet, mirror",
+        "B. closet, nightstand, microwave, mirror",
+        "C. nightstand, mirror, closet, microwave",
+        "D. microwave, nightstand, mirror, closet"
+      ],
+      "gemini_answer": "A. nightstand, microwave, closet, mirror"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, mirror, sofa, microwave?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. window, mirror, sofa, microwave",
+        "B. window, mirror, microwave, sofa",
+        "C. mirror, microwave, window, sofa",
+        "D. window, sofa, microwave, mirror"
+      ],
+      "gemini_answer": "A. window, mirror, sofa, microwave"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, trash bin, nightstand, backpack?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. window, backpack, nightstand, trash bin",
+        "B. window, trash bin, nightstand, backpack",
+        "C. trash bin, backpack, nightstand, window",
+        "D. nightstand, window, backpack, trash bin"
+      ],
+      "gemini_answer": "B. window, trash bin, nightstand, backpack"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: pillow, nightstand, door, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. pillow, nightstand, door, sofa",
+        "B. nightstand, door, pillow, sofa",
+        "C. door, nightstand, pillow, sofa",
+        "D. pillow, sofa, nightstand, door"
+      ],
+      "gemini_answer": "A. pillow, nightstand, door, sofa"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: nightstand, closet, backpack, towel?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. closet, backpack, nightstand, towel",
+        "B. nightstand, closet, towel, backpack",
+        "C. closet, towel, backpack, nightstand",
+        "D. nightstand, closet, backpack, towel"
+      ],
+      "gemini_answer": "D. nightstand, closet, backpack, towel"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: nightstand, bed, towel, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. towel, nightstand, sofa, bed",
+        "B. sofa, bed, towel, nightstand",
+        "C. bed, sofa, nightstand, towel",
+        "D. nightstand, bed, towel, sofa"
+      ],
+      "gemini_answer": "D. nightstand, bed, towel, sofa"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: chair, table, mirror, towel?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. chair, table, mirror, towel",
+        "B. table, chair, towel, mirror",
+        "C. towel, table, chair, mirror",
+        "D. table, chair, mirror, towel"
+      ],
+      "gemini_answer": "A. chair, table, mirror, towel"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: mirror, backpack, window, nightstand?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. mirror, backpack, window, nightstand",
+        "B. backpack, window, mirror, nightstand",
+        "C. mirror, backpack, nightstand, window",
+        "D. window, backpack, nightstand, mirror"
+      ],
+      "gemini_answer": "C. mirror, backpack, nightstand, window"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: refrigerator, mirror, table, nightstand?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. table, nightstand, refrigerator, mirror",
+        "B. refrigerator, nightstand, table, mirror",
+        "C. table, nightstand, mirror, refrigerator",
+        "D. refrigerator, mirror, table, nightstand"
+      ],
+      "gemini_answer": "C. table, nightstand, mirror, refrigerator"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: trash bin, printer, mirror, nightstand?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. printer, trash bin, mirror, nightstand",
+        "B. printer, nightstand, trash bin, mirror",
+        "C. trash bin, printer, mirror, nightstand",
+        "D. nightstand, printer, mirror, trash bin"
+      ],
+      "gemini_answer": "D. nightstand, printer, mirror, trash bin"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: nightstand, trash bin, chair, window?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. nightstand, trash bin, window, chair",
+        "B. nightstand, trash bin, chair, window",
+        "C. window, chair, nightstand, trash bin",
+        "D. window, chair, trash bin, nightstand"
+      ],
+      "gemini_answer": "A. nightstand, trash bin, window, chair"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: backpack, nightstand, table, trash bin?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. backpack, nightstand, table, trash bin",
+        "B. nightstand, table, trash bin, backpack",
+        "C. table, backpack, nightstand, trash bin",
+        "D. backpack, trash bin, table, nightstand"
+      ],
+      "gemini_answer": "C. table, backpack, nightstand, trash bin"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: nightstand, closet, backpack, counter?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. closet, backpack, nightstand, counter",
+        "B. closet, nightstand, counter, backpack",
+        "C. counter, backpack, closet, nightstand",
+        "D. nightstand, closet, backpack, counter"
+      ],
+      "gemini_answer": "D. nightstand, closet, backpack, counter"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: mirror, microwave, backpack, radiator?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. mirror, microwave, backpack, radiator",
+        "B. radiator, backpack, microwave, mirror",
+        "C. radiator, mirror, microwave, backpack",
+        "D. backpack, mirror, microwave, radiator"
+      ],
+      "gemini_answer": "A. mirror, microwave, backpack, radiator"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: towel, bed, nightstand, backpack?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. bed, towel, nightstand, backpack",
+        "B. towel, bed, nightstand, backpack",
+        "C. nightstand, bed, backpack, towel",
+        "D. bed, backpack, nightstand, towel"
+      ],
+      "gemini_answer": "A. bed, towel, nightstand, backpack"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: towel, pillow, nightstand, backpack?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. pillow, backpack, nightstand, towel",
+        "B. pillow, backpack, towel, nightstand",
+        "C. backpack, pillow, towel, nightstand",
+        "D. towel, pillow, nightstand, backpack"
+      ],
+      "gemini_answer": "B. pillow, backpack, towel, nightstand"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: nightstand, backpack, radiator, mirror?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. radiator, mirror, nightstand, backpack",
+        "B. radiator, backpack, nightstand, mirror",
+        "C. mirror, radiator, backpack, nightstand",
+        "D. nightstand, backpack, radiator, mirror"
+      ],
+      "gemini_answer": "D. nightstand, backpack, radiator, mirror"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: door, backpack, mirror, closet?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. door, backpack, mirror, closet",
+        "B. mirror, backpack, closet, door",
+        "C. closet, backpack, door, mirror",
+        "D. closet, mirror, backpack, door"
+      ],
+      "gemini_answer": "D. closet, mirror, backpack, door"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: bed, mirror, refrigerator, nightstand?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. refrigerator, bed, mirror, nightstand",
+        "B. nightstand, bed, refrigerator, mirror",
+        "C. bed, mirror, refrigerator, nightstand",
+        "D. bed, nightstand, refrigerator, mirror"
+      ],
+      "gemini_answer": "C. bed, mirror, refrigerator, nightstand"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: mirror, printer, refrigerator, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. printer, refrigerator, mirror, sofa",
+        "B. mirror, printer, refrigerator, sofa",
+        "C. mirror, printer, sofa, refrigerator",
+        "D. printer, sofa, refrigerator, mirror"
+      ],
+      "gemini_answer": "B. mirror, printer, refrigerator, sofa"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: chair, window, mirror, nightstand?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. chair, mirror, nightstand, window",
+        "B. nightstand, mirror, chair, window",
+        "C. window, chair, nightstand, mirror",
+        "D. chair, window, mirror, nightstand"
+      ],
+      "gemini_answer": "D. chair, window, mirror, nightstand"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: mirror, nightstand, window, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. mirror, nightstand, window, sofa",
+        "B. window, sofa, nightstand, mirror",
+        "C. nightstand, sofa, window, mirror",
+        "D. sofa, nightstand, mirror, window"
+      ],
+      "gemini_answer": "A. mirror, nightstand, window, sofa"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, trash bin, sofa, mirror?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. window, sofa, trash bin, mirror",
+        "B. mirror, window, trash bin, sofa",
+        "C. window, trash bin, sofa, mirror",
+        "D. mirror, sofa, trash bin, window"
+      ],
+      "gemini_answer": "C. window, trash bin, sofa, mirror"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: nightstand, trash bin, backpack, mirror?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. backpack, nightstand, trash bin, mirror",
+        "B. nightstand, trash bin, backpack, mirror",
+        "C. nightstand, mirror, backpack, trash bin",
+        "D. mirror, backpack, nightstand, trash bin"
+      ],
+      "gemini_answer": "A. backpack, nightstand, trash bin, mirror"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: mirror, refrigerator, bed, chair?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. refrigerator, bed, chair, mirror",
+        "B. bed, chair, refrigerator, mirror",
+        "C. mirror, refrigerator, bed, chair",
+        "D. bed, mirror, refrigerator, chair"
+      ],
+      "gemini_answer": "D. bed, mirror, refrigerator, chair"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: microwave, monitor, backpack, mirror?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. monitor, mirror, backpack, microwave",
+        "B. microwave, monitor, backpack, mirror",
+        "C. monitor, microwave, backpack, mirror",
+        "D. monitor, backpack, microwave, mirror"
+      ],
+      "gemini_answer": "C. monitor, microwave, backpack, mirror"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: trash bin, mirror, backpack, radiator?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. backpack, mirror, trash bin, radiator",
+        "B. mirror, backpack, radiator, trash bin",
+        "C. radiator, backpack, trash bin, mirror",
+        "D. trash bin, mirror, backpack, radiator"
+      ],
+      "gemini_answer": "A. backpack, mirror, trash bin, radiator"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "What will be the first-time appearance order of the following categories in the video: pillow, mirror, chair, trash bin?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. chair, mirror, trash bin, pillow",
+        "B. pillow, chair, trash bin, mirror",
+        "C. trash bin, mirror, pillow, chair",
+        "D. pillow, mirror, chair, trash bin"
+      ],
+      "gemini_answer": "D. pillow, mirror, chair, trash bin"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "If I am standing by the closet and facing the radiator, is the trash bin to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. left",
+        "B. right",
+        "C. back"
+      ],
+      "gemini_answer": "A. left"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "If I am standing by the closet and facing the trash bin, is the radiator to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. left",
+        "B. right",
+        "C. back"
+      ],
+      "gemini_answer": "B. right"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "If I am standing by the radiator and facing the closet, is the trash bin to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "options": [
+        "A. back",
+        "B. left",
+        "C. right"
+      ],
+      "gemini_answer": "C. right"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "How many window(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "2"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "How many towel(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "1"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "How many backpack(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "3"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "How many door(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "1"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "How many table(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "3"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, what is the distance between the sofa and the bed (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "4.1 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, what is the distance between the microwave and the sofa (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "1.5 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, what is the distance between the mirror and the pillow (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "3.8 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, what is the distance between the printer and the refrigerator (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "4.5 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, what is the distance between the printer and the chair (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "3.2 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, what is the distance between the radiator and the counter (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "5.6 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "Measuring from the closest point of each object, what is the distance between the refrigerator and the counter (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "1.2 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0207_02",
+      "question": "You are a robot beginning at the toilet and facing the toilet. You want to navigate to the refrigerator. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the bathroom sink 3. [please fill in] 4. Go forward until the kitchen counter 5. [please fill in] 6. Go forward until the refrigerator. You have reached the final destination.",
+      "question_type": "route_planning",
+      "options": [
+        "A. Turn Left, Turn Right, Turn Left",
+        "B. Turn Right, Turn Left, Turn Right",
+        "C. Turn Back, Turn Left, Turn Right",
+        "D. Turn Left, Turn Left, Turn Left"
+      ],
+      "gemini_answer": "C. Turn Back, Turn Left, Turn Right"
+    }
+  ],
+  "ground_truth_included": false
+}

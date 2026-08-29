@@ -1,0 +1,540 @@
+{
+  "scene_name": "scene0231_00",
+  "video_path": "data/scannet/scene0231_00.mp4",
+  "source": "local:data/vsi_bench/test.jsonl",
+  "num_questions": 51,
+  "questions": [
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, which of these objects (door, counter, clock, plant) is the closest to the backpack?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. door",
+        "B. counter",
+        "C. clock",
+        "D. plant"
+      ],
+      "gemini_answer": "C. clock"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, which of these objects (clock, chair, backpack, lamp) is the closest to the pillow?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. clock",
+        "B. chair",
+        "C. backpack",
+        "D. lamp"
+      ],
+      "gemini_answer": "D. lamp"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, which of these objects (door, pillow, clock, plant) is the closest to the backpack?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. door",
+        "B. pillow",
+        "C. clock",
+        "D. plant"
+      ],
+      "gemini_answer": "C. clock"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, which of these objects (door, sofa, microwave, trash bin) is the closest to the clock?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. door",
+        "B. sofa",
+        "C. microwave",
+        "D. trash bin"
+      ],
+      "gemini_answer": "C. microwave"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, which of these objects (backpack, lamp, clock, pillow) is the closest to the counter?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. backpack",
+        "B. lamp",
+        "C. clock",
+        "D. pillow"
+      ],
+      "gemini_answer": "C. clock"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, which of these objects (refrigerator, lamp, sofa, counter) is the closest to the backpack?",
+      "question_type": "object_rel_distance",
+      "options": [
+        "A. refrigerator",
+        "B. lamp",
+        "C. sofa",
+        "D. counter"
+      ],
+      "gemini_answer": "C. sofa"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the sofa, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "220 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the counter, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "210 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the refrigerator, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "175 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the pillow, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "50 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the plant, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "40 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the backpack, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "45 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the microwave, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "55 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the clock, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "35 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the length of the longest dimension (length, width, or height) of the door, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "gemini_answer": "205 cm"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "If I am standing by the sofa and facing the counter, is the backpack to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. front-left",
+        "B. back-right",
+        "C. front-right",
+        "D. back-left"
+      ],
+      "gemini_answer": "A. front-left"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "If I am standing by the sofa and facing the backpack, is the counter to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-right",
+        "B. front-left",
+        "C. back-left",
+        "D. front-right"
+      ],
+      "gemini_answer": "D. front-right"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "If I am standing by the counter and facing the sofa, is the backpack to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. front-left",
+        "B. back-right",
+        "C. front-right",
+        "D. back-left"
+      ],
+      "gemini_answer": "C. front-right"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "If I am standing by the sofa and facing the counter, is the clock to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. back-left",
+        "B. front-left",
+        "C. back-right",
+        "D. front-right"
+      ],
+      "gemini_answer": "B. front-left"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "If I am standing by the sofa and facing the clock, is the counter to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. front-right",
+        "B. back-right",
+        "C. front-left",
+        "D. back-left"
+      ],
+      "gemini_answer": "A. front-right"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "If I am standing by the counter and facing the sofa, is the clock to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "options": [
+        "A. front-left",
+        "B. back-left",
+        "C. front-right",
+        "D. back-right"
+      ],
+      "gemini_answer": "C. front-right"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "question_type": "room_size_estimation",
+      "gemini_answer": "48 square meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: chair, pillow, plant, window?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. pillow, window, plant, chair",
+        "B. chair, window, pillow, plant",
+        "C. chair, pillow, plant, window",
+        "D. pillow, chair, window, plant"
+      ],
+      "gemini_answer": "B. chair, window, pillow, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, counter, lamp, pillow?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. plant, counter, lamp, pillow",
+        "B. pillow, plant, counter, lamp",
+        "C. counter, lamp, pillow, plant",
+        "D. counter, pillow, plant, lamp"
+      ],
+      "gemini_answer": "D. counter, pillow, plant, lamp"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, chair, window, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. plant, chair, window, sofa",
+        "B. chair, window, sofa, plant",
+        "C. plant, chair, sofa, window",
+        "D. window, sofa, plant, chair"
+      ],
+      "gemini_answer": "B. chair, window, sofa, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, pillow, window, microwave?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. pillow, plant, window, microwave",
+        "B. plant, pillow, window, microwave",
+        "C. window, microwave, pillow, plant",
+        "D. microwave, window, pillow, plant"
+      ],
+      "gemini_answer": "D. microwave, window, pillow, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: lamp, microwave, plant, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. microwave, lamp, sofa, plant",
+        "B. lamp, microwave, plant, sofa",
+        "C. sofa, lamp, microwave, plant",
+        "D. plant, sofa, microwave, lamp"
+      ],
+      "gemini_answer": "A. microwave, lamp, sofa, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, microwave, lamp, pillow?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. plant, pillow, microwave, lamp",
+        "B. plant, microwave, lamp, pillow",
+        "C. microwave, lamp, pillow, plant",
+        "D. plant, pillow, lamp, microwave"
+      ],
+      "gemini_answer": "C. microwave, lamp, pillow, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: chair, plant, lamp, pillow?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. chair, plant, lamp, pillow",
+        "B. chair, lamp, plant, pillow",
+        "C. chair, lamp, pillow, plant",
+        "D. plant, lamp, pillow, chair"
+      ],
+      "gemini_answer": "C. chair, lamp, pillow, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, refrigerator, plant, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. window, sofa, refrigerator, plant",
+        "B. window, refrigerator, plant, sofa",
+        "C. refrigerator, window, plant, sofa",
+        "D. refrigerator, window, sofa, plant"
+      ],
+      "gemini_answer": "D. refrigerator, window, sofa, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, lamp, counter, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. plant, lamp, counter, sofa",
+        "B. counter, lamp, sofa, plant",
+        "C. plant, sofa, counter, lamp",
+        "D. plant, counter, lamp, sofa"
+      ],
+      "gemini_answer": "B. counter, lamp, sofa, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: sofa, plant, refrigerator, lamp?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. refrigerator, lamp, sofa, plant",
+        "B. sofa, lamp, refrigerator, plant",
+        "C. sofa, plant, refrigerator, lamp",
+        "D. lamp, refrigerator, plant, sofa"
+      ],
+      "gemini_answer": "A. refrigerator, lamp, sofa, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: refrigerator, pillow, window, plant?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. refrigerator, pillow, window, plant",
+        "B. plant, window, pillow, refrigerator",
+        "C. refrigerator, window, pillow, plant",
+        "D. plant, window, refrigerator, pillow"
+      ],
+      "gemini_answer": "C. refrigerator, window, pillow, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, lamp, chair, sofa?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. plant, lamp, chair, sofa",
+        "B. chair, plant, sofa, lamp",
+        "C. lamp, chair, plant, sofa",
+        "D. chair, lamp, sofa, plant"
+      ],
+      "gemini_answer": "D. chair, lamp, sofa, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: microwave, plant, sofa, window?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. microwave, window, sofa, plant",
+        "B. plant, sofa, window, microwave",
+        "C. microwave, plant, sofa, window",
+        "D. plant, sofa, microwave, window"
+      ],
+      "gemini_answer": "A. microwave, window, sofa, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: pillow, refrigerator, lamp, plant?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. pillow, refrigerator, plant, lamp",
+        "B. refrigerator, lamp, pillow, plant",
+        "C. pillow, refrigerator, lamp, plant",
+        "D. lamp, refrigerator, pillow, plant"
+      ],
+      "gemini_answer": "B. refrigerator, lamp, pillow, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, sofa, counter, window?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. counter, window, sofa, plant",
+        "B. window, sofa, plant, counter",
+        "C. plant, sofa, counter, window",
+        "D. sofa, plant, counter, window"
+      ],
+      "gemini_answer": "A. counter, window, sofa, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "What will be the first-time appearance order of the following categories in the video: counter, plant, pillow, window?",
+      "question_type": "obj_appearance_order",
+      "options": [
+        "A. pillow, counter, window, plant",
+        "B. counter, window, pillow, plant",
+        "C. counter, plant, pillow, window",
+        "D. window, counter, pillow, plant"
+      ],
+      "gemini_answer": "B. counter, window, pillow, plant"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "How many chair(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "10"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "How many window(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "3"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "How many lamp(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "1"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "How many trash bin(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "1"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "How many table(s) are in this room?",
+      "question_type": "object_counting",
+      "gemini_answer": "3"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the backpack and the refrigerator (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "5.2 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the refrigerator (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "6.1 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the backpack and the pillow (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "4.3 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the microwave and the plant (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "1.2 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the clock and the backpack (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "3.2 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the pillow (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "8.5 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "Measuring from the closest point of each object, what is the distance between the counter and the sofa (in meters)?",
+      "question_type": "object_abs_distance",
+      "gemini_answer": "6.4 meters"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0231_00",
+      "question": "You are a robot beginning at the refrigerator, with your back to the fridge. You want to navigate to the trophies on the open shelving. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. Go forward until the kitchen island. 2. [please fill in] 3. Go forward until the chairs. 4. [please fill in] 5. Go forward until past the column. 6. [please fill in] 7. Go forward until the open shelving. You have reached the final destination.",
+      "question_type": "route_planning",
+      "options": [
+        "A. Turn Back, Turn Right, Turn Right",
+        "B. Turn Left, Turn Left, Turn Right",
+        "C. Turn Left, Turn Right, Turn Left",
+        "D. Turn Right, Turn Left, Turn Right"
+      ],
+      "gemini_answer": "C. Turn Left, Turn Right, Turn Left"
+    }
+  ],
+  "ground_truth_included": false
+}

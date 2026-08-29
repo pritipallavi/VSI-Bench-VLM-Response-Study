@@ -1,0 +1,719 @@
+{
+  "scene_name": "scene0697_01",
+  "video_path": "data/scannet/scene0697_01.mp4",
+  "source": "local:data/vsi_bench/test.jsonl",
+  "num_questions": 63,
+  "questions": [
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (mirror, window, lamp, trash bin) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "D",
+      "options": [
+        "A. mirror",
+        "B. window",
+        "C. lamp",
+        "D. trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (lamp, window, pillow, tv) is the closest to the mirror?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "C",
+      "options": [
+        "A. lamp",
+        "B. window",
+        "C. pillow",
+        "D. tv"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (lamp, window, pillow, nightstand) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "D",
+      "options": [
+        "A. lamp",
+        "B. window",
+        "C. pillow",
+        "D. nightstand"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (closet, bed, trash bin, mirror) is the closest to the tv?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "B",
+      "options": [
+        "A. closet",
+        "B. bed",
+        "C. trash bin",
+        "D. mirror"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (window, tv, nightstand, lamp) is the closest to the mirror?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "C",
+      "options": [
+        "A. window",
+        "B. tv",
+        "C. nightstand",
+        "D. lamp"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (bed, tv, lamp, mirror) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "A",
+      "options": [
+        "A. bed",
+        "B. tv",
+        "C. lamp",
+        "D. mirror"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (lamp, trash bin, bed, mirror) is the closest to the tv?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "C",
+      "options": [
+        "A. lamp",
+        "B. trash bin",
+        "C. bed",
+        "D. mirror"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (window, trash bin, mirror, pillow) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "B",
+      "options": [
+        "A. window",
+        "B. trash bin",
+        "C. mirror",
+        "D. pillow"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (bed, tv, pillow, window) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "A",
+      "options": [
+        "A. bed",
+        "B. tv",
+        "C. pillow",
+        "D. window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (nightstand, lamp, closet, bed) is the closest to the trash bin?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "D",
+      "options": [
+        "A. nightstand",
+        "B. lamp",
+        "C. closet",
+        "D. bed"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (lamp, bed, tv, window) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "B",
+      "options": [
+        "A. lamp",
+        "B. bed",
+        "C. tv",
+        "D. window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (closet, window, mirror, tv) is the closest to the trash bin?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "C",
+      "options": [
+        "A. closet",
+        "B. window",
+        "C. mirror",
+        "D. tv"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, pillow, lamp, window) is the closest to the mirror?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "A",
+      "options": [
+        "A. trash bin",
+        "B. pillow",
+        "C. lamp",
+        "D. window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (mirror, trash bin, pillow, nightstand) is the closest to the closet?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "D",
+      "options": [
+        "A. mirror",
+        "B. trash bin",
+        "C. pillow",
+        "D. nightstand"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (tv, nightstand, trash bin, window) is the closest to the mirror?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "C",
+      "options": [
+        "A. tv",
+        "B. nightstand",
+        "C. trash bin",
+        "D. window"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, which of these objects (nightstand, trash bin, pillow, closet) is the closest to the mirror?",
+      "question_type": "object_rel_distance",
+      "ground_truth": "B",
+      "options": [
+        "A. nightstand",
+        "B. trash bin",
+        "C. pillow",
+        "D. closet"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What is the length of the longest dimension (length, width, or height) of the lamp, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "ground_truth": "63"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What is the length of the longest dimension (length, width, or height) of the tv, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "ground_truth": "96"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What is the length of the longest dimension (length, width, or height) of the mirror, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "ground_truth": "120"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What is the length of the longest dimension (length, width, or height) of the trash bin, measured in centimeters?",
+      "question_type": "object_size_estimation",
+      "ground_truth": "26"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the lamp and facing the closet, is the mirror to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "ground_truth": "D",
+      "options": [
+        "A. back-left",
+        "B. back-right",
+        "C. front-left",
+        "D. front-right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the lamp and facing the mirror, is the closet to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "ground_truth": "A",
+      "options": [
+        "A. front-left",
+        "B. front-right",
+        "C. back-left",
+        "D. back-right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the tv and facing the closet, is the trash bin to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "ground_truth": "C",
+      "options": [
+        "A. front-left",
+        "B. back-right",
+        "C. front-right",
+        "D. back-left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the tv and facing the trash bin, is the closet to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "ground_truth": "D",
+      "options": [
+        "A. back-left",
+        "B. front-right",
+        "C. back-right",
+        "D. front-left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the closet and facing the tv, is the trash bin to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "question_type": "object_rel_direction_hard",
+      "ground_truth": "B",
+      "options": [
+        "A. back-right",
+        "B. front-left",
+        "C. back-left",
+        "D. front-right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the lamp and facing the closet, is the trash bin to the left or the right of the closet?",
+      "question_type": "object_rel_direction_easy",
+      "ground_truth": "B",
+      "options": [
+        "A. left",
+        "B. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the lamp and facing the trash bin, is the closet to the left or the right of the trash bin?",
+      "question_type": "object_rel_direction_easy",
+      "ground_truth": "A",
+      "options": [
+        "A. left",
+        "B. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the closet and facing the lamp, is the trash bin to the left or the right of the lamp?",
+      "question_type": "object_rel_direction_easy",
+      "ground_truth": "B",
+      "options": [
+        "A. right",
+        "B. left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "question_type": "room_size_estimation",
+      "ground_truth": "16.0"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: tv, bed, window, trash bin?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "C",
+      "options": [
+        "A. tv, bed, window, trash bin",
+        "B. trash bin, window, tv, bed",
+        "C. bed, window, tv, trash bin",
+        "D. tv, window, bed, trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: lamp, nightstand, mirror, tv?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "A",
+      "options": [
+        "A. nightstand, lamp, tv, mirror",
+        "B. tv, lamp, mirror, nightstand",
+        "C. tv, nightstand, lamp, mirror",
+        "D. lamp, nightstand, mirror, tv"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, tv, closet, trash bin?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "D",
+      "options": [
+        "A. window, tv, closet, trash bin",
+        "B. tv, window, closet, trash bin",
+        "C. closet, tv, window, trash bin",
+        "D. closet, window, tv, trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: lamp, trash bin, tv, nightstand?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "B",
+      "options": [
+        "A. lamp, nightstand, trash bin, tv",
+        "B. nightstand, lamp, tv, trash bin",
+        "C. lamp, trash bin, tv, nightstand",
+        "D. nightstand, trash bin, tv, lamp"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, pillow, tv, mirror?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "D",
+      "options": [
+        "A. tv, window, mirror, pillow",
+        "B. window, pillow, tv, mirror",
+        "C. pillow, mirror, tv, window",
+        "D. pillow, window, tv, mirror"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: tv, window, mirror, nightstand?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "A",
+      "options": [
+        "A. nightstand, window, tv, mirror",
+        "B. tv, nightstand, window, mirror",
+        "C. tv, window, mirror, nightstand",
+        "D. nightstand, window, mirror, tv"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, tv, pillow, trash bin?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "B",
+      "options": [
+        "A. window, pillow, tv, trash bin",
+        "B. pillow, window, tv, trash bin",
+        "C. pillow, tv, window, trash bin",
+        "D. window, tv, pillow, trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, mirror, tv, closet?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "C",
+      "options": [
+        "A. window, mirror, tv, closet",
+        "B. mirror, tv, closet, window",
+        "C. closet, window, tv, mirror",
+        "D. closet, window, mirror, tv"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: mirror, tv, window, bed?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "A",
+      "options": [
+        "A. bed, window, tv, mirror",
+        "B. mirror, tv, window, bed",
+        "C. mirror, bed, tv, window",
+        "D. tv, window, mirror, bed"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: trash bin, window, tv, nightstand?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "C",
+      "options": [
+        "A. nightstand, trash bin, window, tv",
+        "B. window, tv, trash bin, nightstand",
+        "C. nightstand, window, tv, trash bin",
+        "D. trash bin, window, tv, nightstand"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: bed, tv, mirror, lamp?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "B",
+      "options": [
+        "A. mirror, bed, tv, lamp",
+        "B. bed, lamp, tv, mirror",
+        "C. bed, tv, lamp, mirror",
+        "D. bed, tv, mirror, lamp"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: lamp, closet, tv, trash bin?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "D",
+      "options": [
+        "A. tv, trash bin, lamp, closet",
+        "B. tv, closet, lamp, trash bin",
+        "C. lamp, closet, tv, trash bin",
+        "D. closet, lamp, tv, trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: pillow, tv, lamp, trash bin?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "A",
+      "options": [
+        "A. pillow, lamp, tv, trash bin",
+        "B. pillow, tv, lamp, trash bin",
+        "C. pillow, lamp, trash bin, tv",
+        "D. lamp, trash bin, tv, pillow"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: lamp, tv, closet, mirror?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "C",
+      "options": [
+        "A. lamp, tv, mirror, closet",
+        "B. lamp, tv, closet, mirror",
+        "C. closet, lamp, tv, mirror",
+        "D. mirror, closet, lamp, tv"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: bed, trash bin, lamp, tv?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "D",
+      "options": [
+        "A. tv, trash bin, lamp, bed",
+        "B. tv, lamp, bed, trash bin",
+        "C. bed, trash bin, lamp, tv",
+        "D. bed, lamp, tv, trash bin"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "What will be the first-time appearance order of the following categories in the video: tv, lamp, mirror, pillow?",
+      "question_type": "obj_appearance_order",
+      "ground_truth": "B",
+      "options": [
+        "A. mirror, lamp, pillow, tv",
+        "B. pillow, lamp, tv, mirror",
+        "C. pillow, mirror, tv, lamp",
+        "D. tv, lamp, mirror, pillow"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the closet and facing the mirror, is the trash bin to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "ground_truth": "A",
+      "options": [
+        "A. right",
+        "B. back",
+        "C. left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the closet and facing the trash bin, is the mirror to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "ground_truth": "C",
+      "options": [
+        "A. right",
+        "B. back",
+        "C. left"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the mirror and facing the closet, is the trash bin to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "ground_truth": "B",
+      "options": [
+        "A. right",
+        "B. left",
+        "C. back"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the tv and facing the closet, is the mirror to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "ground_truth": "C",
+      "options": [
+        "A. left",
+        "B. back",
+        "C. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the tv and facing the mirror, is the closet to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "ground_truth": "A",
+      "options": [
+        "A. left",
+        "B. back",
+        "C. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "If I am standing by the closet and facing the tv, is the mirror to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "question_type": "object_rel_direction_medium",
+      "ground_truth": "B",
+      "options": [
+        "A. back",
+        "B. left",
+        "C. right"
+      ]
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "How many bed(s) are in this room?",
+      "question_type": "object_counting",
+      "ground_truth": "2"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "How many window(s) are in this room?",
+      "question_type": "object_counting",
+      "ground_truth": "2"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "How many pillow(s) are in this room?",
+      "question_type": "object_counting",
+      "ground_truth": "3"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "How many nightstand(s) are in this room?",
+      "question_type": "object_counting",
+      "ground_truth": "2"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the trash bin and the tv (in meters)?",
+      "question_type": "object_abs_distance",
+      "ground_truth": "3.0"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the trash bin and the closet (in meters)?",
+      "question_type": "object_abs_distance",
+      "ground_truth": "0.9"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the closet and the lamp (in meters)?",
+      "question_type": "object_abs_distance",
+      "ground_truth": "2.5"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the trash bin and the mirror (in meters)?",
+      "question_type": "object_abs_distance",
+      "ground_truth": "0.7"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the mirror and the lamp (in meters)?",
+      "question_type": "object_abs_distance",
+      "ground_truth": "2.9"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the closet and the tv (in meters)?",
+      "question_type": "object_abs_distance",
+      "ground_truth": "3.5"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "Measuring from the closest point of each object, what is the distance between the mirror and the closet (in meters)?",
+      "question_type": "object_abs_distance",
+      "ground_truth": "1.3"
+    },
+    {
+      "dataset": "scannet",
+      "scene_name": "scene0697_01",
+      "question": "You are a robot beginning at the dollhouse nearby the window and facing the window. You want to navigate to the hanging picture. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the cabinet with a mirror on top of that. 3. [please fill in] 4. Go forward until the hanging picture. You have reached the final destination.",
+      "question_type": "route_planning",
+      "ground_truth": "B",
+      "options": [
+        "A. Turn Left, Turn Left",
+        "B. Turn Back, Turn Right",
+        "C. Turn Back, Turn Left",
+        "D. Turn Left, Turn Right"
+      ]
+    }
+  ]
+}
