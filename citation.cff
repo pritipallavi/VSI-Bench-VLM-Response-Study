@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "VSI-Bench-LLM-Response-Study"
+abstract: "Evaluation results of Gemini 3 Flash on the VSI-Bench benchmark using ScanNet scenes and corresponding question-answer prompts."
+authors:
+  - name: "Priti Pallavi"
+version: 1.0.0
+date-released: 2026-08-20
+url: "https://github.com/pritipallavi/VSI-Bench-VLM-Response-Study"
+repository-code: "https://github.com/pritipallavi/VSI-Bench-VLM-Response-Study"
+license: MIT
+keywords:
+  - "VSI-Bench"
+  - "vision-language model"
+  - "Gemini"
+  - "ScanNet"
+  - "evaluation"
